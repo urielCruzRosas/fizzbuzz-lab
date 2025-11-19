@@ -1,5 +1,5 @@
 // Game logic
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 1000; i++) {
     // FizzBuzz displayed logic
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
@@ -15,7 +15,7 @@ for (let i = 1; i <= 100; i++) {
         console.log("Buzz");
     }
 
-    // if not we compute i
+    // if not we compute i (normal number
     else { 
         console.log(i)
     }
